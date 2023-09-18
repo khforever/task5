@@ -1,0 +1,40 @@
+
+
+CREATE DATABASE Round_six ;
+
+
+
+
+CREATE TABLE studens 
+(
+
+id INT PRIMARY KEY,
+name  CHAR(200),
+age int  NOT NULL ,
+grade float    
+    
+    
+);
+
+
+
+
+
+
+ALTER TABLE studens
+ADD COLUMN status text (200);
+
+
+
+
+
+
+INSERT INTO studens VALUES
+(1, 'ali', 15,50,'pass'),
+(2, 'noha', 15,40,'fail'),
+(3, 'mai', 15,50,'pass'),
+(4, 'ahmed', 15,70,'pass'),
+(5, 'hoda', 15,45,'fail')
+
+
+;
